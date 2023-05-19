@@ -9,15 +9,34 @@
   </head>
   <body>
     <nav>
-      <ul class="row justify-end">
-        <li>
+      <ul id="navList" class="row justify-end">
+        <li id="about">
           <a href="#about">About us</a>
         </li>
-        <li>
+        <li id="contact">
           <a href="#contact">Contact us</a>
         </li>
       </ul>
+    
+
+      <button id="burger" class="burger-menu">
+        <span class="burger-menu-line"></span>
+        <span class="burger-menu-line"></span>
+      </button>
+
+      <div class="openBurger">
+        <ul id="navList2">
+          <li id="about">
+            <a href="#about">About</a>
+          </li>
+          <li id="contact">
+            <a href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+
     </nav>
+    
 
     <section>
       <h1 class="title">Agency name</h1>
@@ -73,5 +92,8 @@
 
     <!-- Here we can include social media info (GitHub, LinkedIn) -->
     <footer></footer>
+
+    <script src="main.js"></script>
+    
   </body>
 </html>
