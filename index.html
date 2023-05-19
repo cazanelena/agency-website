@@ -11,19 +11,20 @@
     <nav>
       <ul id="navList" class="row justify-end">
         <li id="about">
-          <a href="#about">About us</a>
+          <a href="#about">About</a>
         </li>
         <li id="contact">
-          <a href="#contact">Contact us</a>
+          <a href="#contact">Contact</a>
         </li>
       </ul>
     
-
-      <button id="burger" class="burger-menu">
+      <!-- This button is the burger menu, it replaces the original nav on smaller screen devices.  -->
+      <button id="burger" class="burger-menu column">
         <span class="burger-menu-line"></span>
         <span class="burger-menu-line"></span>
       </button>
 
+      <!-- When the burger menu is opened it shows the new nav and hides the old one. It might be better to change the styling of the orignal nav rather than creating a new one, I'll update this on a future commit if we have time.  -->
       <div class="openBurger">
         <ul id="navList2">
           <li id="about">
