@@ -74,10 +74,11 @@ img {
 }
 #contact {
     background-color: rgb(142, 193, 215);
+    padding-bottom: 1rem;
 }
 .btn-contact {
     display: block;
-    width: 15rem;
+    width: 8rem;
     height: 30px;
   
 }
