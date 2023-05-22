@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/b5155ef28e.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <nav class="row">
+      <a href="#" onclick="history.back()">
+        <i class="fas fa-arrow-left"></i>
+        Back
+      </a>
+    </nav>
+
+    
+      <h1 class="textAlignCenter">Contact Us</h1>
+
+      
+
+      <form id="contactForm" class="col center width-sm" method="POST" action="/submit-form">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required>
+
+        
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+
+          <label for="company">Company:</label>
+          <input type="text" id="company" name="company">
+
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" rows="4" required></textarea>
+
+        <input type="submit" value="Submit">
+      </form>
+
+      
+      
+    <p id="submitMessage"></p>
+
+    <script src="form.js"></script>
+  </body>
+</html>
