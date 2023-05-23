@@ -5,11 +5,11 @@
     box-sizing: border-box;
     margin: 0;
     font-family: 'Cabin', sans-serif;
-    
 }
 
 body {
-    background-color: f2edeb;
+    background-color: #f2edeb;
+    overflow-x: hidden;
 }
 
 
@@ -136,6 +136,7 @@ nav {
 
 nav a {
     color: white;
+    transition: .3s ease-out;
 }
 
 nav a:hover {
@@ -146,7 +147,7 @@ nav a:hover {
 
 #navList2 a:hover {
     cursor: pointer;
-    color: rgb(76, 76, 76);
+    color: rgb(0, 0, 0);
     transition: .2s ease-in;
   }
 
@@ -155,7 +156,6 @@ nav a:hover {
     line-height: 2rem;
     font-size: 1.4rem;
     cursor: pointer;
-    background-color: rgba(0, 0, 0, 0.1);
     display: none;
   }
 
@@ -169,10 +169,6 @@ nav a:hover {
   
 .openBurger {
     display: none;
-  }
-
-#navList2 a {
-    color: black;
   }
 
 @media screen and (max-width: 1024px) {
@@ -205,6 +201,7 @@ nav a:hover {
         position: absolute;
         top: 0.5rem;
         right: 1rem;
+        z-index: 2;
       }
       
       .burger-menu-line {
@@ -221,6 +218,26 @@ nav a:hover {
       
       .open .burger-menu-line:last-child {
         transform: translateY(-6px) rotate(-405deg);
+      }
+
+      .menu-bg {
+        top: -1rem;
+        right: -1rem;
+        position: absolute;
+        z-index: 0;
+        width: 0;
+        height: 0;
+        margin: 30px 0 20px 20px;
+        background: radial-gradient(circle, #4d6c45, #4d6747);
+        border-radius: 50%;
+        transition: 0.3s ease;
+        
+      }
+      
+      .change-bg {
+        width: 420px;
+        height: 360px;
+        transform: translate(70%,-30%);
       }
 
   }
