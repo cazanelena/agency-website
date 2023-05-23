@@ -7,6 +7,10 @@ button.addEventListener("click", function () {
   button.classList.toggle("open");
 });
 
+function menuOnClick() {
+  document.getElementById("menu-bg").classList.toggle("change-bg");
+}
+
 // Contact button
 const contactButton = document.getElementById("contactButton");
 contactButton.addEventListener("click", function () {
