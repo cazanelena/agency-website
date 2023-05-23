@@ -80,7 +80,21 @@ img {
     display: block;
     width: 8rem;
     height: 30px;
-  
+}
+.btn-top {
+    display: none;
+	cursor: pointer;
+	position: fixed; 
+	bottom: 20px;
+	right: 30px;
+	z-index: 1;
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	background-color: rgb(12, 12, 12);
+	color: white;
+	font-size: 15px;
+	border: none;
 }
 ul {
     list-style: none;
