@@ -7,9 +7,9 @@
     <title>Agency website</title>
     <link rel="stylesheet" href="style.css" />
     <script
-    src="https://kit.fontawesome.com/b5155ef28e.js"
-    crossorigin="anonymous"
-  ></script>
+      src="https://kit.fontawesome.com/b5155ef28e.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
     <nav>
@@ -41,7 +41,7 @@
       </div>
     </nav>
 
-    <section>
+    <section class=" center" id="agency-title">
       <h1 class="title">Agency name</h1>
     </section>
 
@@ -93,21 +93,42 @@
       </div>
     </section>
     <!-- Information about each member of the team -->
-    <section id="about"></section>
+    <h2 class="sub-title center">Our team</h2>
+    <section id="about" class="row center">
+      <div class="box center">
+        <img src="Images/elena.jpeg" alt="Image of Elena" class="image-round" />
+        <h3>Title</h3>
+        <p>Some things about us</p>
+      </div>
+      <div class="box center">
+        <img
+          src="Images/laurie.jpg"
+          alt="Image of Laurie"
+          class="image-round"
+        />
+        <h3>Title</h3>
+        <p>Some things about us</p>
+      </div>
+    </section>
     <!-- Get in touch section -->
     <section id="contact" class="center">
-        <h2> How to get in touch</h2>
-        <h3>Leave us your contact details below</h3>
-        <!-- When click this button will open a new tab with a form -->
-        <button id="contactButton" class="btn-contact center" role="button">Contact us</button>
-        
+      <h2>How to get in touch</h2>
+      <h3>Leave us your contact details below</h3>
+      <!-- When click this button will open a new tab with a form -->
+      <button id="contactButton" class="btn-contact center" role="button">
+        Contact us
+      </button>
     </section>
 
     <!-- Here we can include social media info (GitHub, LinkedIn) -->
     <!-- Here are my details be we should change them to something else
     I will leave it like this for future reference -->
     <footer class="center">
-      <a href="mailto:cazan.elena23@yahoo.com" target="_blank" aria-label="email">
+      <a
+        href="mailto:cazan.elena23@yahoo.com"
+        target="_blank"
+        aria-label="email"
+      >
         <i class="fa-solid fa-envelope"></i>
       </a>
       <a
@@ -117,10 +138,18 @@
       >
         <i class="fa-brands fa-linkedin"></i>
       </a>
-      <a href="https://github.com/cazanelena" target="_blank" aria-label="github">
+      <a
+        href="https://github.com/cazanelena"
+        target="_blank"
+        aria-label="github"
+      >
         <i class="fa-brands fa-github"></i>
       </a>
-      <a href="https://github.com/cazanelena/Website-Project" target="_blank" aria-label="projects">
+      <a
+        href="https://github.com/cazanelena/Website-Project"
+        target="_blank"
+        aria-label="projects"
+      >
         <i class="fa-sharp fa-solid fa-code-branch"></i>
       </a>
     </footer>
