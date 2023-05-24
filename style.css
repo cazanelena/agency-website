@@ -172,6 +172,18 @@ nav a:hover {
   }
 
 @media screen and (max-width: 1024px) {
+
+  html {
+    overflow-x: hidden;
+  }
+
+  body {
+    overflow-x: hidden;
+  }
+
+  .change-bg{
+    overflow-x: hidden;
+  }
     .column {
         display: flex;
         flex-direction: column;
