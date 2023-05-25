@@ -52,8 +52,7 @@ body {
 .sub-title {
     font-size: 3rem;
     text-align: center;
-    padding: 20px;
-    background-color: rgb(248, 171, 57);
+    padding: 40px;
 }
 h3, h2 {
     text-align: center;
@@ -77,13 +76,24 @@ img {
     max-width: 250px;
 }
 
-#description, #about {
+#description {
     background-color: rgb(248, 171, 57);
     padding: 25px;
 }
 #agency-title {
-    background-color: #BD93BD;
     padding: 25px;
+    background-image: url(Images/pineapple-supply-co-qlYQb7B9vog-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#about {
+  padding: 50px;
+  background-image: url(Images/sincerely-media-HoEYgBL_Gcs-unsplash.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 #contact {
     background-color: #925e78;
