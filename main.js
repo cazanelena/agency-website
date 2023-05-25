@@ -41,3 +41,20 @@ const scrollToTop = () => {
 
 displayButton();
 scrollToTop();
+
+
+// Typing effect for the main title
+const textTitle = document.getElementById('main-title');
+const agencyName = 'Agency Name';
+let index = 0;
+
+function type() {
+  textTitle.textContent += agencyName.charAt(index);
+  index++;
+
+  if (index < agencyName.length) {
+    setTimeout(type, 500)
+  }
+}
+
+type()
