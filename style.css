@@ -39,10 +39,31 @@ body {
     max-width: 20rem;
   }
 
+/* Form styling */
+
 .textAlignCenter {
   text-align: center;
+  margin: 3rem 0;
+  font-size: 3rem;
+  color: black;
+}
+.lable-form {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+.form-body {
+  background-image: url(Images/antonio-uquiche-279jjKbZ3wA-unsplash.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
 }
 
+#contactForm {
+  background-color: #c4cad0;
+  padding: 40px;
+  border-radius: 5%;
+}
 
 
 .sub-title {
