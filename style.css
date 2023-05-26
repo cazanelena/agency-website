@@ -50,7 +50,7 @@ body {
 }
 
 .sub-title {
-    font-size: 3rem;
+    font-size: 4rem;
     text-align: center;
     padding: 40px;
 }
@@ -81,6 +81,18 @@ img {
     background-color: rgb(248, 171, 57);
     padding: 25px;
 }
+/* Info about team members */
+.text-about-us {
+  background-color: #A4969B;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 5%;
+}
+.us-title {
+  text-align: center;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+}
 #agency-title {
     padding: 25px;
     background-image: url(Images/pineapple-supply-co-qlYQb7B9vog-unsplash.jpg);
@@ -102,7 +114,8 @@ img {
     padding: 50px;
 }
 .contact-title {
-  font-size: 3rem;
+  font-size: 2rem;
+  letter-spacing: 2px;
 }
 .contact-sub-title {
   font-size: 1.5rem;
