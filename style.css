@@ -43,11 +43,7 @@ body {
   text-align: center;
 }
 
-.title {
-    font-size: 5rem;
-    text-align: center;
-    margin: 20rem 0 20rem 0;
-}
+
 
 .sub-title {
     font-size: 4rem;
@@ -93,6 +89,13 @@ img {
   letter-spacing: 2px;
   margin-bottom: 10px;
 }
+/* Main title */
+.title {
+  font-size: 5rem;
+  text-align: center;
+  margin: 20rem 0 20rem 0;
+}
+
 #agency-title {
     padding: 25px;
     background-image: url(Images/pineapple-supply-co-qlYQb7B9vog-unsplash.jpg);
@@ -100,6 +103,23 @@ img {
     background-repeat: no-repeat;
     background-position: center;
 }
+.cursor {
+  display: inline-block;
+  animation: blink 0.7s infinite;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
 
 #about {
   padding: 50px;
