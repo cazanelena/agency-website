@@ -58,3 +58,37 @@ function type() {
 }
 
 type()
+
+// Flipping the about us cards 
+function flipCard(button) {
+  let aboutBox = button.parentNode;
+  aboutBox.classList.toggle("box-flipped");
+    
+  let front = aboutBox.querySelector(".box-front");
+  let back = aboutBox.querySelector(".box-back");
+  
+  if (aboutBox.classList.contains("box-flipped")) {
+    front.style.display = "none";
+    back.style.display = "block";
+  } else {
+    front.style.display = "block";
+    back.style.display = "none";
+  }
+}
+
+let elenaButton = document.getElementById('elenaButton');
+let laurieButton = document.getElementById('laurieButton');
+
+elenaButton.addEventListener('click', function () {
+  elenaButton.classList.toggle("box-flipped");
+  if (elenaButton.innerHTML == "Flip back") {
+    elenaButton.innerHTML = "More info";
+  } else {elenaButton.innerHTML = "Flip back"};
+});
+
+laurieButton.addEventListener('click', function () {
+  laurieButton.classList.toggle("box-flipped");
+  if (laurieButton.innerHTML == "Flip back") {
+    laurieButton.innerHTML = "More info";
+  } else {laurieButton.innerHTML = "Flip back"};
+});
