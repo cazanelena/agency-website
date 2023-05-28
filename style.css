@@ -62,7 +62,7 @@ body {
 #contactForm {
   background-color: #c4cad0;
   padding: 40px;
-  border-radius: 5%;
+  border-radius: 10px;
 }
 
 
@@ -80,7 +80,7 @@ h3, h2 {
 .box {
     max-width: 27rem;
     padding: 30px;
-    background-color: bisque;
+    /* background-color: bisque; */
 }
 
 img {
@@ -95,7 +95,7 @@ img {
 }
 
 #description {
-    background-color: rgb(248, 171, 57);
+    /* background-color: rgb(248, 171, 57); */
     padding: 25px;
 }
 /* Info about team members */
@@ -103,7 +103,8 @@ img {
   background-color: #A4969B;
   margin: 20px;
   padding: 20px;
-  border-radius: 5%;
+  border-radius: 10px;
+  box-shadow: 10px 5px 5px #655560;
 }
 .us-title {
   text-align: center;
@@ -149,10 +150,19 @@ img {
   background-repeat: no-repeat;
   background-position: center;
 }
+
+#description div {
+  background-color: #c4cad0;
+  border-radius: 10px;
+  box-shadow:10px 5px 5px #878c8f;
+}
 /* Contact us section */
 #contact {
     background-color: #c4cad0;
     padding: 50px;
+    max-width: 40rem;
+    border-radius: 10px;
+    box-shadow: 10px 5px 5px #878c8f;
 }
 .contact-title {
   font-size: 2rem;
@@ -167,7 +177,7 @@ img {
     width: fit-content;
     height: auto;
     background-color: #655560;
-    border-radius: 5%;
+    border-radius: 10px;
     cursor: pointer;
     color: white;
     font-size: 1.2rem;
@@ -354,7 +364,7 @@ nav a:hover {
 	align-content: center;
 	gap: 4px;
 	grid-auto-flow: column;
-	background-color: rgb(134, 66, 66);
+	/* background-color: rgb(134, 66, 66); */
 }
 
 footer  a {
@@ -363,7 +373,7 @@ footer  a {
 	color: rgb(39, 38, 38);
 	padding: 10px 14px;
 	transition: all 100ms ease-in-out;
-	background-color: rgb(226, 218, 218);
+	background-color: #a4969b;
 	border-radius: 50%;
 	opacity: 0.6;
 	transition: 0.3s;
