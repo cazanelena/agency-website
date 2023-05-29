@@ -84,7 +84,6 @@ h3, h2 {
 .box {
     max-width: 27rem;
     padding: 30px;
-    /* background-color: bisque; */
 }
 
 img {
@@ -99,7 +98,6 @@ img {
 }
 
 #description {
-    /* background-color: rgb(248, 171, 57); */
     padding: 25px;
 }
 /* Info about team members */
@@ -110,6 +108,9 @@ img {
 
   border-radius: 10px;
   box-shadow: 10px 5px 5px #655560;
+}
+.flipped-card {
+  background-color: #c4cad0;
 }
 .us-title {
   text-align: center;
@@ -370,7 +371,6 @@ nav a:hover {
 	align-content: center;
 	gap: 4px;
 	grid-auto-flow: column;
-	/* background-color: rgb(134, 66, 66); */
 }
 
 footer  a {
