@@ -107,6 +107,7 @@ img {
   background-color: #A4969B;
   margin: 20px;
   padding: 30px 20px;
+
   border-radius: 10px;
   box-shadow: 10px 5px 5px #655560;
 }
@@ -160,7 +161,6 @@ img {
   border-radius: 10px;
   box-shadow:10px 5px 5px #878c8f;
 }
-
 
 /* Contact us section */
 #contact {
