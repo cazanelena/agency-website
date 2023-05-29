@@ -20,6 +20,10 @@ body {
     align-items: center;
 }
 
+.stretch {
+  align-items: stretch;
+}
+
 .col {
   display: flex;
   flex-direction: column;
@@ -387,4 +391,54 @@ textarea {
   margin-top: 0.5rem;
   text-align: center;
   color: rgb(88, 128, 88);
+}
+
+/* About us */
+
+.boxTransform {
+  position: relative;
+  transform-style: preserve-3d;
+  transition: transform 0.5s;
+}
+
+.box-flipped {
+  transform: rotateY(180deg);
+}
+
+.box-front,
+.box-back {
+  min-height: 500px;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  backface-visibility: hidden;
+}
+
+.box-front {
+  z-index: 2;
+  transform: rotateY(0deg);
+}
+
+.box-back {
+  transform: rotateY(180deg);
+  display: none;
+}
+
+.more-info-button {
+  position: absolute;
+  margin-top: 1rem;
+  left: 39%;
+  bottom: 2rem;
+  background-color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.testimonialAuthor {
+  display: inline-block;
+  margin: 1rem 0 0 2rem;
 }
