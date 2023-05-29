@@ -45,7 +45,7 @@ scrollToTop();
 
 // Typing effect for the main title
 const textTitle = document.getElementById('title-text');
-const agencyName = 'Agency Name';
+const agencyName = 'Code Crafters';
 
 let index = 0;
 
