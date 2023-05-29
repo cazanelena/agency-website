@@ -106,7 +106,8 @@ img {
 .text-about-us {
   background-color: #A4969B;
   margin: 20px;
-  padding: 20px;
+  padding: 30px 20px;
+
   border-radius: 10px;
   box-shadow: 10px 5px 5px #655560;
 }
@@ -160,6 +161,7 @@ img {
   border-radius: 10px;
   box-shadow:10px 5px 5px #878c8f;
 }
+
 /* Contact us section */
 #contact {
     background-color: #c4cad0;
@@ -417,7 +419,7 @@ textarea {
 
 .box-front,
 .box-back {
-  min-height: 500px;
+  min-height: 600px;
   top: 0;
   left: 0;
   right: 0;
@@ -439,10 +441,8 @@ textarea {
   position: absolute;
   margin-top: 1rem;
   left: 39%;
-  bottom: 2rem;
   background-color: #fff;
   padding: 10px 20px;
-  border: none;
   border-radius: 4px;
   font-weight: bold;
   cursor: pointer;
@@ -450,5 +450,5 @@ textarea {
 
 .testimonialAuthor {
   display: inline-block;
-  margin: 1rem 0 0 2rem;
+  margin-top: 1rem;
 }
