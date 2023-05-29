@@ -1,8 +1,12 @@
 # ReadmeFile: agency-website
 
+## Installation
+
+To install and run this project, clone the project files and open `index.html` in a browser.
+
 ## Overview
 
-In this project we built a website using HTML, CSS, and JavaScript. The website should give potential clients:
+In this project we built a Software Development agency website using HTML, CSS, and JavaScript. The website should give potential clients:
 
     - An introduction to our agency
     - Information about each member of our team
@@ -10,13 +14,14 @@ In this project we built a website using HTML, CSS, and JavaScript. The website 
 
 ## Planning
 
-Before starting the project we were given the following User stories woth acceptance criteria.
+Before starting the project we were given the following User stories with acceptance criteria.
 
     - Navigation menu
     - ‘About us’ section
     - Contact form
     - A user cannot submit a form without filling out all of the mandatory fields (name, company name, email address)
     - Information from the form doesn’t get submitted until the user clicks a button
+  
     
  We used Figma to create an initial wire frame and decided how we wanted to layout the site.
  
