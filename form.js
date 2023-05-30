@@ -1,10 +1,13 @@
 // Shows a message when the form is submitted
 const contactForm = document.getElementById("contactForm");
 const submitMessage = document.getElementById("submitMessage");
+const formTitle = document.getElementById("form-title");
 
 contactForm.addEventListener("submit", function(event) {
 
     event.preventDefault();
+    contactForm.style.display = 'none';
+    formTitle.style.display = 'none';
 
   // Get the form values
   const name = document.getElementById("name").value;
