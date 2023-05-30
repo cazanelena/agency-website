@@ -4,6 +4,8 @@ const submitMessage = document.getElementById("submitMessage");
 
 contactForm.addEventListener("submit", function(event) {
 
+    event.preventDefault();
+
   // Get the form values
   const name = document.getElementById("name").value;
   const email = document.getElementById("email").value;
