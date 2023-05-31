@@ -8,6 +8,7 @@ contactForm.addEventListener("submit", function(event) {
     event.preventDefault();
     contactForm.style.display = 'none';
     formTitle.style.display = 'none';
+    submitMessage.style.backgroundColor = 'rgb(202, 196, 196)'; 
 
   // Get the form values
   const name = document.getElementById("name").value;
