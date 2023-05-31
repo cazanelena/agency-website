@@ -242,6 +242,8 @@ nav {
     width: 100%; 
     padding: 0.5rem 20px;
     text-align: center;
+    position: fixed;
+    z-index: 1;
 }
 
 nav a {
@@ -307,7 +309,7 @@ nav a:hover {
     
     #navList2 {
         display: block;
-        position: absolute;
+        position: fixed;
         top: 6%;
         right: 3%;
         z-index: 1;
